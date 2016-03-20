@@ -1,12 +1,13 @@
 header h1 {
   font-family:Oswald;
   text-transform: uppercase;
-  @include remcalc(55);
   font-weight:bold;
+  font-style:normal;
   a {
     color:#111111;
   }
 }
-h2, h3, h4 {
+h1, h2, h3, h4 {
   font-style:italic;
+  font-weight:900;
 }
