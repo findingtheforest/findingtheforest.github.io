@@ -1,7 +1,9 @@
 <header>
-  <div class="container">
-    <a href="/">Finding the Forest</a>
-  </div>
+	<div class="container">
+   		<a href="/">Finding the Forest</a>
+	</div>
 </header>
 
-<hr>
+<div class="container">
+	<hr>
+</div>
