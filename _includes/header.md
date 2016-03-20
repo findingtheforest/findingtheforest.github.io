@@ -1,5 +1,5 @@
 <header>
   <div class="container">
-    <a href="{{ site.url }}">Finding the Forest</a>
+    <a href="/">Finding the Forest</a>
   </div>
 </header>
