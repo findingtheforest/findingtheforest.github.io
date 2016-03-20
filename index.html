@@ -2,17 +2,34 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
+<section class="component-post-summary">
+	{% for post in site.posts limit:1 %}
+	<ul>
+		<li>{{ post.author }}</li>
+		<li>{{ post.date }}</li>
+	</ul>
+	<h1>{{ post.title }}</h1>
+    <div class="entry">
+    	{{ post.excerpt }}
+    </div>
+    {% endfor %}
+</section>
+
+<!-- needs an offset of 1 for the first post? -->
+<section class="component-post-archive">
+  {% for post in site.posts offset: 1 limit: 8 %}
     <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
       <div class="entry">
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
-</div>
+</section>
+
+<section class="component-about-us">
+	We're a blog.
+</section>
