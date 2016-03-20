@@ -3285,6 +3285,12 @@ footer {
   font-size: 20px;
   font-size: 2rem; }
 
+p a, footer a {
+  border-bottom: 1px solid;
+  display: inline-block; }
+  p a:hover, footer a:hover {
+    text-decoration: none; }
+
 header h1 {
   font-family: Oswald;
   text-transform: uppercase;

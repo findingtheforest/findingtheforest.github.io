@@ -48,3 +48,13 @@ footer {
 	padding: 30px 0;
 	@include remcalc(20);
 }
+
+p, footer {
+	a {
+		border-bottom:1px solid;
+		display:inline-block;
+		&:hover {
+			text-decoration:none;
+		}
+	}
+}
