@@ -1,0 +1,24 @@
+{
+  "name": "ethan-blog",
+  "version": "1.0.0",
+  "authors": [
+    "Ethan <ethan@webspecdesign.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": ">=3.3.3"
+  },
+  "main": [
+    "js/**/*.js",
+    "_sass/style.scss",
+    "_sass/fonts/**/*"
+  ]
+}

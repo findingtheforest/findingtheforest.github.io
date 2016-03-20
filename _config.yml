@@ -92,3 +92,10 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - package.json
+  - bower.json
+  - gulpfile.js
+  - bower_components
+  - node_modules
+  - build
+  - style.scss
