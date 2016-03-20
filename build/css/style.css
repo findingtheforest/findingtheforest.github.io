@@ -3267,15 +3267,20 @@ header {
 
 .component-post-meta {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 13px;
+  font-size: 1.3rem;
+  color: #515151;
+  margin-bottom: .2em; }
   .component-post-meta li {
     display: inline-block;
     margin-right: 10px; }
 
 .component-post-title {
-  margin: 0 0 15px 0; }
-  .component-post-title a {
-    color: black; }
+  margin: 0 0 15px 0;
+  color: #111111; }
 
 .component-intro {
   font-size: 20px;
