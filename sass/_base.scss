@@ -13,6 +13,7 @@ header {
 
 .component-about-us {
 	padding: 30px 0;
+	@include remcalc(20);
 }
 
 .component-post-summary {
@@ -36,7 +37,13 @@ header {
 	}
 }
 
+.component-intro {
+	padding: 30px 0;
+	@include remcalc(20);
+}
+
 footer {
 	text-align: center;
 	padding: 30px 0;
+	@include remcalc(20);
 }
