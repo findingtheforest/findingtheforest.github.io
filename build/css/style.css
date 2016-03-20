@@ -3287,7 +3287,8 @@ footer {
 
 p a, footer a {
   border-bottom: 1px solid;
-  display: inline-block; }
+  display: inline;
+  padding-bottom: 2px; }
   p a:hover, footer a:hover {
     text-decoration: none; }
 

@@ -52,7 +52,8 @@ footer {
 p, footer {
 	a {
 		border-bottom:1px solid;
-		display:inline-block;
+		display:inline;
+		padding-bottom:2px;
 		&:hover {
 			text-decoration:none;
 		}
