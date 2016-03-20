@@ -13,7 +13,10 @@ title: Home
     <div class="component-intro">
     	{{ post.excerpt }}
     </div>
-    {% endfor %}
+    <div class="component-read-more">
+      <a href="{{ post.permalink }}">Read Full Article</a>
+    </div>
+  {% endfor %}
 </section>
 
 <!-- needs an offset of 1 for the first post? -->
@@ -27,7 +30,7 @@ title: Home
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ post.permalink }}">Read Full Article</a>
+      <a href="{{ post.permalink }}" class="component-read-more">Read Full Article</a>
 
     </article>
   {% endfor %}

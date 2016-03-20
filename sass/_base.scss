@@ -18,7 +18,7 @@ header {
 }
 
 .component-post-summary {
-
+	padding: 30px 0;
 }
 
 .component-post-meta {
@@ -39,7 +39,6 @@ header {
 }
 
 .component-intro {
-	padding: 30px 0;
 	@include remcalc(20);
 }
 
@@ -49,7 +48,7 @@ footer {
 	@include remcalc(20);
 }
 
-p, footer {
+p, footer, .component-read-more {
 	a {
 		border-bottom:1px solid;
 		display:inline;
