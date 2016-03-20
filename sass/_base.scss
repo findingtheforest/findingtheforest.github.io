@@ -24,6 +24,11 @@ header {
 .component-post-meta {
 	padding: 0;
 	margin: 0;
+	text-transform: uppercase;
+	letter-spacing:3px;
+	@include remcalc(13);
+	color:lighten($brand-primary, 25%);
+	margin-bottom:.2em;
 	li {
 		display: inline-block;
 		margin-right: 10px;
@@ -32,10 +37,7 @@ header {
 
 .component-post-title {
 	margin: 0 0 15px 0;
-	a {
-		color: black;
-
-	}
+	color:$brand-primary;
 }
 
 .component-intro {
