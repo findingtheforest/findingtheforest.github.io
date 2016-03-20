@@ -9,7 +9,7 @@ The public repository for the Finding the Forest blog. Built via Jekyll.
 
 ## About Us
 
-[Finding the Forest](http://findingtheforestcom). We're [Nick](nick@findingtheforest.com), [Michael](michael@findingtheforest.com) and [Ethan](ethan@findingtheforest.com). We talk about the web.
+[Finding the Forest](http://findingtheforestcom). We're [Nick](mailto:nick@findingtheforest.com), [Michael](mailto:michael@findingtheforest.com) and [Ethan](mailto:ethan@findingtheforest.com). We talk about the web.
 
 ## Contributing
 
