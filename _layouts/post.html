@@ -2,21 +2,23 @@
 layout: default
 ---
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
+<article class="component-post">
+  <div class="component-post-summary">
+    <ul class="component-post-meta">
+      <li>{{ page.author }}</li>
+  		<li>{{ page.date | date:"%B %-d, %Y" }}</li>
+    </ul>
+    <h1 class="component-post-title">{{ page.title }}</h1>
 
-  {% if page.intro %}
-    <div class="intro">
-      {{ page.intro | markdownify }}
-    </div>
-  {% endif %}
-
-  <div class="entry">
-    {{ content }}
+    {% if page.intro %}
+      <div class="component-intro">
+        {{ page.intro | markdownify }}
+      </div>
+    {% endif %}
   </div>
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+  <div class="component-post-content">
+    {{ content }}
   </div>
 
   {% include disqus.html %}
