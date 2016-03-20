@@ -1,6 +1,9 @@
+body {
+  font-family:$font-family-serif;
+}
 header {
 	padding: 30px 0;
-	text-align: center;
+	text-align: left;
 	a {
 		@include remcalc(60);
 	}
