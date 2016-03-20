@@ -1,6 +1,8 @@
 ---
 title: Welcome to Finding the Forest
 author: Nick Hoobin
+intro: >
+ Finding the Forest is a new outlet for thoughts on the web industry. We hope you'll enjoy reading it as much as we enjoy writing it. --The FtF Team
 ---
 
 I wouldn’t normally call an article about user experience sexy, but Sophia Voychehovski’s [Object-Oriented UX](http://alistapart.com/article/object-oriented-ux), on A List Apart , is one sexy article. When I first read it I remember how enlightening it was. How it clicked for me. The charts in the article are information architecture, wireframes, database design, and scope. All the information is presented in a format that is readable by makers and stakeholders. I wanted to implement the process right away. Every single project I would be working on from then on should incorporate some form of content modeling. A single article had the power to change my entire work philosophy, to improve the product for the users and the stakeholders.
