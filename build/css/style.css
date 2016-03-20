@@ -3292,6 +3292,9 @@ footer {
   font-size: 20px;
   font-size: 2rem; }
 
+p {
+  margin-bottom: 1.5em; }
+
 p a, footer a, .component-read-more a {
   border-bottom: 1px solid;
   display: inline;

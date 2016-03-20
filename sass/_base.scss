@@ -50,6 +50,10 @@ footer {
 	@include remcalc(20);
 }
 
+p {
+	margin-bottom:1.5em;
+}
+
 p, footer, .component-read-more {
 	a {
 		border-bottom:1px solid;
