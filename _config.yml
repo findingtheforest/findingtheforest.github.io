@@ -97,5 +97,4 @@ exclude:
   - gulpfile.js
   - bower_components
   - node_modules
-  - build
   - style.scss
