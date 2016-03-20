@@ -4,12 +4,12 @@ layout: default
 
 <section class="component-post-summary">
 	{% for post in site.posts limit:1 %}
-	<ul>
+	<ul class="component-post-meta">
 		<li>{{ post.author }}</li>
-		<li>{{ post.date }}</li>
+		<li>{{ post.date | date:"%B %-d, %Y" }}</li>
 	</ul>
-	<h1>{{ post.title }}</h1>
-    <div class="entry">
+	<h1 class="component-post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+    <div class="component-intro">
     	{{ post.excerpt }}
     </div>
     {% endfor %}
@@ -31,6 +31,11 @@ layout: default
 </section>
 
 <section class="component-about-us">
+<<<<<<< HEAD
   <p>Finding the Forest is a blog focused on the web industry. Its founders are lifelong learners, passionate, curious, never satisfied makers. We hope to learn from others as much as we teach them. We hope to open up this blog to other voices and viewpoints.</p>
   <p>If you feel similarly, <a href="mailto:us@findingtheforest.com">consider writing for us</a></p>
 </section>
+=======
+	This is the about us section.
+</section>
+>>>>>>> 995f1755a1b900605fe30edd5f12c26e06842c5c
