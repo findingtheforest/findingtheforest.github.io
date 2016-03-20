@@ -28,7 +28,7 @@ var sassIncl = require('sass-include-paths');
 // Define our paths
 var paths = {
 	scripts: 'js/**/*.js',
-	styles: 'style.scss',
+	styles: ['style.scss', 'sass/**/*.scss'],
 	fonts: '_sass/fonts/**/*',
 	images: 'images/**/*.{png,jpg,jpeg,gif,svg}',
 	html: ['_posts/*.{html,md}', '_includes/*.{html,md}', '_layouts/*.{html,md}', '*.{html,md}'],
