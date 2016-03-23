@@ -167,7 +167,6 @@ gulp.task('images', function() {
 		.pipe(plumber())
 		.pipe(gulp.dest(destPaths.images1))
 		.pipe(gulp.dest(destPaths.images2))
-		.pipe(notify('Image optimized!'));
 });
 
 // Compress Images for Build
@@ -180,7 +179,6 @@ gulp.task('build-images', function() {
 		}))
 		.pipe(gulp.dest(destPaths.images1))
 		.pipe(gulp.dest(destPaths.images2))
-		.pipe(notify('Image optimized!'));
 });
 
 // Watch for changes made to files

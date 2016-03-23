@@ -19,28 +19,38 @@ title: Home
   {% endfor %}
 </section>
 
-<!-- needs an offset of 1 for the first post? -->
-<section class="component-post-archive">
-  {% for post in site.posts offset: 1 limit: 8 %}
-    <article class="post col-xs-12 col-sm-6">
+<section class="component-post-archive cl-xs-12">
+  <div class="row">
+    {% for post in site.posts offset: 1 limit: 8 %}
+      <article class="post col-xs-12 col-sm-6">
+      
+        <ul class="component-post-meta">
+          <li>{{ post.author }}</li>
+          <li>{{ post.date | date:"%B %-d, %Y" }}</li>
+        </ul>
+      
+        <h2 class="component-post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
-      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+        <div class="entry">
+          {{ post.intro }}
+        </div>
+        
+        <div class="component-read-more">
+          <a href="{{ post.permalink }}">Read Full Article</a>
+        </div>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ post.permalink }}" class="component-read-more">Read Full Article</a>
-
-    </article>
-  {% endfor %}
+      </article>
+    {% endfor %}
+  </div>
 </section>
 
 <hr>
 
-<section class="component-about-us">
-  <p>Finding the Forest is a blog focused on the web industry. Its founders are lifelong learners, passionate, curious, never satisfied makers. We hope to learn from others as much as we teach them. We hope to open up this blog to other voices and viewpoints.</p>
-  <p>If you feel similarly, <a href="mailto:us@findingtheforest.com">consider writing for us</a>.</p>
+<section class="component-about-us col-xs-12">
+  <div class="row">
+    <p>Finding the Forest is a blog focused on the web industry. Its founders are lifelong learners, passionate, curious, never satisfied makers. We hope to learn from others as much as we teach them. We hope to open up this blog to other voices and viewpoints.</p>
+    <p>If you feel similarly, <a href="mailto:us@findingtheforest.com">consider writing for us</a>.</p>
+  </div>
 </section>
 
 <hr>

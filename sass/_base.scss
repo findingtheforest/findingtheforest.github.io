@@ -13,12 +13,14 @@ header {
 }
 
 .component-about-us {
-	padding: 30px 0;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	@include remcalc(20);
 }
 
 .component-post-summary {
-	padding: 30px 0;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 .component-post-meta {
@@ -42,6 +44,13 @@ header {
 
 .component-intro {
 	@include remcalc(20);
+}
+
+.component-post-archive {
+	padding-top: 30px;
+	article {
+		margin-bottom: 40px;
+	}
 }
 
 footer {

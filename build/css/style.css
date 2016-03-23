@@ -3258,12 +3258,14 @@ header {
     font-size: 6rem; }
 
 .component-about-us {
-  padding: 30px 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
   font-size: 20px;
   font-size: 2rem; }
 
 .component-post-summary {
-  padding: 30px 0; }
+  padding-top: 30px;
+  padding-bottom: 30px; }
 
 .component-post-meta {
   padding: 0;
@@ -3285,6 +3287,11 @@ header {
 .component-intro {
   font-size: 20px;
   font-size: 2rem; }
+
+.component-post-archive {
+  padding-top: 30px; }
+  .component-post-archive article {
+    margin-bottom: 40px; }
 
 footer {
   text-align: center;
