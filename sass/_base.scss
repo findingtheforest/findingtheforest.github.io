@@ -59,6 +59,10 @@ footer {
 	@include remcalc(20);
 }
 
+hr {
+	width: 100%;
+}
+
 p {
 	margin-bottom:1.5em;
 }
