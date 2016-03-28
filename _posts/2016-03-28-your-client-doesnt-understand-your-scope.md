@@ -2,7 +2,7 @@
 title: Your Client Doesn't Understand Your Scope
 author: Michael Dippold
 summary: >
-	When writing scopes for clients, avoiding mismatched expectations and strained relationships is not always easy. This article shares some lessons that were learned the hard way in order to make scoping projects and communicating with clients about those scopes just a little less painful.
+ When writing scopes for clients, avoiding mismatched expectations and strained relationships is not always easy. This article shares some lessons that were learned the hard way in order to make scoping projects and communicating with clients about those scopes just a little less painful.
 ---
 
 You’re wrapping up development on a client site. They’ve been happy with the process so far. You deliver a preview link to them for approval. Suddenly, a call. They’re confused and upset. And panicked. Where is this feature? And that feature? They expected to have those features. You never planned to include them.
