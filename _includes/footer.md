@@ -1,4 +1,10 @@
-<hr>
+<div class="container">
+	<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+		<div class="row">
+			<hr>
+		</div>
+	</div>
+</div>
 
 <footer>
   <div class="container">
