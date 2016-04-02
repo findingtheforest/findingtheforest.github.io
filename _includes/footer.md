@@ -1,3 +1,5 @@
+<hr>
+
 <footer>
   <div class="container">
   	<p class="form-pitch">Our articles make you sexy and rich. Find them in your inbox!</p>
