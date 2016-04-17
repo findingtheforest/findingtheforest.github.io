@@ -100,3 +100,17 @@ p, footer, .component-read-more {
 		}
 	}
 }
+
+.embed {
+  @include remcalc(11);
+  @extend .col-sm-10;
+  @extend .col-sm-offset-1;
+  @extend .col-lg-8;
+  @extend .col-lg-offset-2;
+  margin-top:2em;
+  margin-bottom:2em;
+  iframe {
+    margin:0 auto;
+    max-width:100%;
+  }
+}
