@@ -56,7 +56,7 @@ I’m Person A. Personally, I'm often more _hostile_ to products that advertise 
 
 But somewhere out there is Person B--tons of people clicking on ads as they fly by. Make no mistake, these people exist and are huge in number--after all, they support this entire industry. They’ll click on ads for products they’ve never heard of. Person B is an entire demographic.
 
-When I did Facebook advertising for (a side project)[http://beerpilgrimage.com] (shameless self-promotion), I found myself unconvinced that the audience that clicks on Facebook ads had much overlap with my product’s target audience. Is there a big overlap between the local-vore, craft beer loving audience and the audience that clicks on internet ads? Framed a different way, is there a big overlap between people who will click on an online ad for a new product and people who will venture a trip to an unheard of brewery?
+When I did Facebook advertising for a side project ([shameless self-promotion](http://beerpilgrimage.com)], I found myself unconvinced that the audience that clicks on Facebook ads had much overlap with my product’s target audience. Is there a big overlap between the local-vore, craft beer loving audience and the audience that clicks on internet ads? Framed a different way, is there a big overlap between people who will click on an online ad for a new product and people who will venture a trip to an unheard of brewery?
 
 Regardless of the resonance that my brand may have with this ad-clicking audience, the fact remains that this _is_ an audience, and this audience should be considered when deciding whether or not this kind of targeted advertising is appropriate.
 
