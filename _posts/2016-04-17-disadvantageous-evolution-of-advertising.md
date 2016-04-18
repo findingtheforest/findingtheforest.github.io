@@ -18,7 +18,7 @@ I'll repeat, not once had I Googled this toothpaste, shopped for it online or so
 
 ## Why?
 
-Magazine ads, TV commercials and other forms advertising that have come before are generally very blanket in style. You might see more prescription drug commercials during golf or hear Ovaltine ads during your weekly Little Orphan Annie program, but until recently, that’s been the extent of targeted advertising.
+Magazine ads, TV commercials and other forms of advertising that have come before are generally very blanket in style. You might see more prescription drug commercials during golf or hear Ovaltine ads during your weekly Little Orphan Annie program, but until recently, that’s been the extent of targeted advertising.
 
 {% include embed.html src='https://www.youtube.com/embed/6_XSShVAnkY?rel=0' %}
 
@@ -26,7 +26,7 @@ But our TV had only a power button, practically no data attached. You could plug
 
 And isn’t that the shortcoming of such advertising? They are often off-target, pedaling products we just don't care about. You can make your best guess based on the publication or program the ad is appearing in, but it’s very much a spray-and-pray strategy. For a long time, however, there wasn’t really a better solution. No one at an advertising company was going to maintain a detailed spreadsheet of their audience--what a silly waste of time. Perhaps a cursory spreadsheet, but certainly nothing rivaling today’s resources.
 
-Internet advertising began in a similar fashion with many of the same shortcomings. The amount of targeting happening in the first spam email was [“Do you live on the west coast?](http://www.adpushup.com/blog/the-history-of-online-advertising/) Banner ads, as an effort to fund websites, were sold to anyone who would buy space. As search was introduced, it was possible to begin advertising in context by serving up ads relevant to someone’s query.
+Internet advertising began in a similar fashion with many of the same shortcomings. The amount of targeting happening in the first spam email was [“Do you live on the west coast?"](http://www.adpushup.com/blog/the-history-of-online-advertising/) Banner ads, as an effort to fund websites, were sold to anyone who would buy space. As search was introduced, it was possible to begin advertising in context by serving up ads relevant to someone’s query.
 
 But why couldn’t we know what someone wants even when they _weren’t_ searching? Why couldn’t we know what someone wants even when they weren’t _directly online_? With the advent of modern computers, sign in with Facebook and those pesky IP addresses, we can automate the collection of our wants and needs and dreams into fuel for smarter ads, and that’s exactly what’s happened. This is, mind you, for the sake of sales. Not because we, the consumers, were pleading for "better ads" that spoke more personally to us (or at least I wasn’t, for fear of speaking for the whole). It’s for the sake of serving me a toothpaste ad. The hope is that this ad is more likely to generate a response, a behavior. It’s a noble endeavor--I, too, wish to use my money effectively. Why waste time and money speaking to an audience that isn’t listening?
 
@@ -42,7 +42,7 @@ Advertising has become accessible, sure. The capacity of the internet to serve u
 
 Let’s consider the commodity concept for a moment as well. Doesn’t it make you uncomfortable to be thought of as a commodity, bought and sold by advertising companies? It happens everywhere we go, and to many of us, it seems absurd. But to others, it goes unnoticed. Your credit cards, your browser, your Facebook--everywhere. You are a commodity. You are bought and sold.
 
-We’re a nation up in arms about the FBI accessing information on a phone on San Bernardino, and for good reason--it sets a precedent, as many have alluded to<sup>1</sup>, in which our private data is only private in the loosest sense, but we’ve only noticed [after Apple told us to](http://www.apple.com/customer-letter/). It wouldn’t be nearly as advantageous for Apple (or Google or Facebook et al) to tell us the many ways in which our data is sold, packed and shipped to advertisers and advise us to be outraged about it--that’s their business, their funding.
+We’re a nation up in arms about the FBI accessing information on a phone in San Bernardino, and for good reason--it sets a precedent, as many have alluded to<sup>1</sup>, in which our private data is only private in the loosest sense, but we’ve only noticed [after Apple told us to](http://www.apple.com/customer-letter/). It wouldn’t be nearly as advantageous for Apple (or Google or Facebook et al) to tell us the many ways in which our data is sold, packed and shipped to advertisers and advise us to be outraged about it--that’s their business, their funding.
 
 {% include embed.html src='https://www.youtube.com/embed/zsjZ2r9Ygzw?rel=0' caption='<sup>1</sup>John Oliver on the debate regarding the San Bernardino iPhone'  %}
 
@@ -56,8 +56,7 @@ I’m Person A. Personally, I'm often more _hostile_ to products that advertise 
 
 But somewhere out there is Person B--tons of people clicking on ads as they fly by. Make no mistake, these people exist and are huge in number--after all, they support this entire industry. They’ll click on ads for products they’ve never heard of. Person B is an entire demographic.
 
-When I did Facebook advertising for a side project ((shameless self-promotion)[http://beerpilgrimage.com]), I found myself unconvinced that the audience that clicks on Facebook ads had much overlap with my product’s target audience. Is there a big overlap between the local-vore, craft beer loving audience and the audience that clicks on internet ads? Framed a different way, is there a big overlap between people who will click on an online ad for a new product and people who will venture a trip to an unheard of brewery?
-
+When I did Facebook advertising for (a side project)[http://beerpilgrimage.com] (shameless self-promotion), I found myself unconvinced that the audience that clicks on Facebook ads had much overlap with my product’s target audience. Is there a big overlap between the local-vore, craft beer loving audience and the audience that clicks on internet ads? Framed a different way, is there a big overlap between people who will click on an online ad for a new product and people who will venture a trip to an unheard of brewery?
 
 Regardless of the resonance that my brand may have with this ad-clicking audience, the fact remains that this _is_ an audience, and this audience should be considered when deciding whether or not this kind of targeted advertising is appropriate.
 
