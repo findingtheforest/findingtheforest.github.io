@@ -17,6 +17,6 @@
 		    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
 	    </div>
 	</form>
-    [Interested in writing?](mailto:us@findingtheforest.com?subject=Write for Finding the Forest) Content is creator-owned. Code is <a href="https://github.com/findingtheforest/findingtheforest.github.io">open source</a>.
+    <a href="mailto:us@findingtheforest.com?subject=Write for Finding the Forest">Interested in writing?</a> Content is creator-owned. Code is <a href="https://github.com/findingtheforest/findingtheforest.github.io">open source</a>.
   </div>
 </footer>
