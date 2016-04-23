@@ -4,7 +4,7 @@ author: Ethan Clevenger
 summary: >
  Everyone and their dog complains about advertising, but to what end? In the problems-oriented first part of a two-part series, Ethan calls out some specific shortcomings and concerns--is big data ethical? Is invasive advertising targeted enough to be effective? Will Mojo Jojo take over Townsville?
 excerpt: In the first part of a two-part series, Ethan questions the ethics and effectiveness of current online advertising models.
-ogimage: ad.png
+ogimage: ads.png
 ---
 
 Running weekend errands not so long ago, I rolled into Target and, while purchasing various other personal hygiene products, remembered I was nearly out of toothpaste. Glad I remembered. In the aisle before me were a variety of options, as anyone who's ever shopped for toothpaste knows.
