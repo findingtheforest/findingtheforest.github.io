@@ -4,6 +4,7 @@ author: Nick Hoobin
 summary: >
  Recently I decided to take the plunge into the world of content creation and created a YouTube channel for my business. I assumed the process would be straightforward and simple. However, as I soon discovered, the steps to creating a channel were far from being easy to understand. Every action, every button clicked, led to more frustration and unease. Only a full UX audit of the process would help me work through my frustration.
 excerpt: After an incident where Nick had to delete his whole YouTube channel, he delves into a full UX audit of YouTube's channel creation process.
+ogimage: youtube-ux-audit/3-2-use-youtube-as.png
 ---
 
 Recently I decided to take the plunge into the world of content creation and created a [YouTube channel for my business](https://www.youtube.com/channel/UCsJl3cLAA4xBVgKHQmprKOQ). I assumed the process would be straightforward and simple. I frequently use YouTube in an advanced capacity: API, manipulating embed codes and URLs, and offering guidance to clients as to when using YouTube is appropriate. I would consider myself a power user of the service, yet, as I discovered, the process of creating a channel was far from being easy to understand. Every action, every button I clicked, led to more frustration and unease. I was required to learn a whole other _service_ before I could start uploading videos. I share the user flow below with my notes on what I found frustrating with the hope of drumming up discussion around user experience (UX).
