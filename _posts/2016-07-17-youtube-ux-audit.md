@@ -4,7 +4,7 @@ author: Nick Hoobin
 summary: >
  Recently I decided to take the plunge into the world of content creation and created a YouTube channel for my business. I assumed the process would be straightforward and simple. However, as I soon discovered, the steps to creating a channel were far from being easy to understand. Every action, every button clicked, led to more frustration and unease. Only a full UX audit of the process would help me work through my frustration.
 excerpt: After an incident where Nick had to delete his whole YouTube channel, he delves into a full UX audit of YouTube's channel creation process.
-ogimage: youtube-ux-audit/3-2-use-youtube-as.png
+ogimage: build/images/youtube-ux-audit/3-2-use-youtube-as.png
 ---
 
 Recently I decided to take the plunge into the world of content creation and created a [YouTube channel for my business](https://www.youtube.com/channel/UCsJl3cLAA4xBVgKHQmprKOQ). I assumed the process would be straightforward and simple. I frequently use YouTube in an advanced capacity: API, manipulating embed codes and URLs, and offering guidance to clients as to when using YouTube is appropriate. I would consider myself a power user of the service, yet, as I discovered, the process of creating a channel was far from being easy to understand. Every action, every button I clicked, led to more frustration and unease. I was required to learn a whole other _service_ before I could start uploading videos. I share the user flow below with my notes on what I found frustrating with the hope of drumming up discussion around user experience (UX).
@@ -21,7 +21,7 @@ My first attempt at creating a channel was unsuccessful. Somewhere along the way
 
 __1.1 The Initial State__
 
-<img src="/images/youtube-ux-audit/1-1-initial-state.png" alt="1.1 The Initial State">
+<img src="/build/images/youtube-ux-audit/1-1-initial-state.png" alt="1.1 The Initial State">
 
 In his book [Cadence & Slang](https://cadence.cc/) Nick Disabato describes the initial state as the first screen the user sees, the blank slate when there’s no data. He mentions that the user will try to explore the service’s capability on the initial state, that they’ll click on buttons (“invitations”) to try and fill the initial state with data. The initial state is the key to the first impression a user has of a service. The chapter of this book is even called Empathy & Kindness, the two factors that are central to providing your user with the best experience. An empathetic and kind initial state would guide the user into taking action and using the application.
 
@@ -29,15 +29,15 @@ This is the initial state the user is presented with after signing up for YouTub
 
 __1.2 Entering in My Name__
 
-<img src="/images/youtube-ux-audit/1-2-use-youtube-as.png" alt="1.2 Entering in My Name">
+<img src="/build/images/youtube-ux-audit/1-2-use-youtube-as.png" alt="1.2 Entering in My Name">
 
 I then was presented with this screen, which was asking for my name. A little odd, I already named the account when I signed up for Gmail, but it’s a small step. Because I’m signing up with my business, I entered its name as best as I could into the first and last name fields. I then clicked Create Channel to proceed to the next step, where I can name the channel.
 
 __1.3 Wait__
 
-<img src="/images/youtube-ux-audit/1-3-wait.png" alt="1.3 Wait">
+<img src="/build/images/youtube-ux-audit/1-3-wait.png" alt="1.3 Wait">
 
-I created the channel already? That’s not right, where do I rename it? There is no way for the user to rename their channel after creation, the only way is to delete it and start over. Something went wrong, in two steps I’ve already messed up creating a channel? Why did that happen?
+I created the channel already? That’s not right, where do I rename it? There is no way for the user to rename their channel after creation, the only way is to delete it and start over. Something went wrong, in two steps I’ve already messed up creating a channel? How did that happen?
 
 ## False Assumptions
 
@@ -55,7 +55,7 @@ The discerning reader would see the mistake I made. On the “Use YouTube as...�
 
 __1.4 Business Channel Creation Screen__
 
-<img src="/images/youtube-ux-audit/1-4-business-channel-creation-screen.png" alt="1.4 Business Channel Creation Screen">
+<img src="/build/images/youtube-ux-audit/1-4-business-channel-creation-screen.png" alt="1.4 Business Channel Creation Screen">
 
 This screen looks like it’ll accomplish what I’ve set out to do. I see that I can name my channel and assign and industry to it. On the right I see actions that a user can take once they’ve created the channel.
 
@@ -63,7 +63,7 @@ Because I had to click on a small link in the modal to get to this screen, and t
 
 __1.5 First Task Complete__
 
-<img src="/images/youtube-ux-audit/1-5-first-task-complete.png" alt="1.5 First Task Complete">
+<img src="/build/images/youtube-ux-audit/1-5-first-task-complete.png" alt="1.5 First Task Complete">
 
 Success! Clicking on “Done” creates my business channel. Of note here is that the layout and features for this business channel (at least on this screen) are identical to when I created the personal channel. That raises the question, if there are two different screens for channel creation that produce the same end result, why have them be separate at all? My guess would be because they’re stored separately in the database, and there’s extra information associated, such as the industry dropdown. It’s important to remember, however, that the end user doesn’t care how the data is stored or the code is architected. They care about the usability of the interfaces.
 
@@ -75,13 +75,13 @@ I’ll first upload my channel’s icon.
 
 __2.1 Now Entering Google+__
 
-<img src="/images/youtube-ux-audit/2-1-now-entering-google-plus.png" alt="2.1 Now Entering Google+">
+<img src="/build/images/youtube-ux-audit/2-1-now-entering-google-plus.png" alt="2.1 Now Entering Google+">
 
 In the previous screens, there’s been mention that a business channel is linked to a Google+ page. Now it’s finally going to happen. To me, this dialog seems to be warning the user that they’re now going to have to enter Google+ to do YouTube things. Starting out a process with a warning is never a good thing.
 
 __2.2 This is Really Happening__
 
-<img src="/images/youtube-ux-audit/2-2-this-is-really-happening.jpg" alt="2.2 This is Really Happening">
+<img src="/build/images/youtube-ux-audit/2-2-this-is-really-happening.jpg" alt="2.2 This is Really Happening">
 
 As a business user creating a YouTube channel I never expected that I’d also be creating a Google+ page. I’m working in the context of YouTube. My actions on YouTube are impacting another service entirely. The necessity to pair the two services is not apparent to me. It’s frustrating and unexpected. Now there’s another service that I have to keep maintained on top of my YouTube channel. I’m not going to use Google+ for my business (we use Facebook) so it’s going to sit untouched and hopefully not appear in search results.
 
@@ -91,7 +91,7 @@ In his book _Cadence & Slang_, Nick Disabato talks about the importance of consi
 
 __2.3 I Have to Share My Icon?__
 
-<img src="/images/youtube-ux-audit/2-3-i-have-to-share-my-icon.png" alt="2.3 I Have to Share My Icon?">
+<img src="/build/images/youtube-ux-audit/2-3-i-have-to-share-my-icon.png" alt="2.3 I Have to Share My Icon?">
 
 The process to upload and select the icon was straightforward. However after selecting it, I’m presented with this modal, prompting me to share the experience of uploading an icon. Did my icon save? If I don’t want to share and hit cancel, will that erase my icon? Am I confirming to use this icon, or did I already select it and am now talking about it?
 
@@ -99,7 +99,7 @@ To answer those questions, I am able to hit cancel and my icon is still saved. I
 
 __2.4 An Album of My Logos?__
 
-<img src="/images/youtube-ux-audit/2-4-an-album-of-my-logos.png" alt="2.4 An Album of My Logos?">
+<img src="/build/images/youtube-ux-audit/2-4-an-album-of-my-logos.png" alt="2.4 An Album of My Logos?">
 
 I have an album of my logos now. I only have one logo and don’t plan on changing it anytime soon, unless there’s something catastrophic like a trademark dispute. An entire album dedicated to my one logo seems a bit narcissistic and doesn’t mesh with my business’ mission statement and value declaration. I kid.
 
@@ -111,19 +111,19 @@ This article was supposed to be about the UX frustrations I had with creating a 
 
 __2.5 Editing My Channel Art__
 
-<img src="/images/youtube-ux-audit/2-5-editing-my-channel-art.png" alt="2.5 Editing My Channel Art">
+<img src="/build/images/youtube-ux-audit/2-5-editing-my-channel-art.png" alt="2.5 Editing My Channel Art">
 
 I’m ready to select my channel art (banner). It’s not through Google+ like my icon was; instead I’m presented with a new interface. I’ve written in the past about how [it is hard to use programs when every click produces a new interface](http://www.webspecdesign.com/2016/02/dev-corner-a-wpml-case-study/). Why couldn’t they use this interface for editing the icon? The upside to this screen is that it’s not Google+, so I don’t have to worry about sharing the change to my banner. Like my logo, I don’t plan on changing the banner too often.
 
 __2.6 Applause__
 
-<img src="/images/youtube-ux-audit/2-6-applause.png" alt="2.6 Applause">
+<img src="/build/images/youtube-ux-audit/2-6-applause.png" alt="2.6 Applause">
 
 As an aside, I’d like to applaud the nice art direction preview of the selected image. I especially love the well written, descriptive “Your channel art is going to look a bit different across devices.” I should find something like this to show my clients when they try to place portrait photos into a landscape image area and something gets cut off.
 
 __2.7 Still Google+__
 
-<img src="/images/youtube-ux-audit/2-7-still-google-plus.png" alt="2.7 Still Google+">
+<img src="/build/images/youtube-ux-audit/2-7-still-google-plus.png" alt="2.7 Still Google+">
 
 Actually, the banner image was Google+ all along. Why did I have to switch contexts over to Google+ to edit and share my icon when I could upload the banner image through YouTube?
 
@@ -139,13 +139,13 @@ Now that I’ve gone through all of the steps of creating a business channel it�
 
 __3.1 The Initial State__
 
-<img src="/images/youtube-ux-audit/3-1-the-initial-state.png" alt="3.1 The Initial State">
+<img src="/build/images/youtube-ux-audit/3-1-the-initial-state.png" alt="3.1 The Initial State">
 
 __A:__ The only action the user can take here is to create a channel, from a nicely linked call to action. The user will know what to click on to move to the next step. No changes need to be made to this screen.
 
 __3.2 Use YouTube As__
 
-<img src="/images/youtube-ux-audit/3-2-use-youtube-as.png" alt="3.2 Use YouTube As">
+<img src="/build/images/youtube-ux-audit/3-2-use-youtube-as.png" alt="3.2 Use YouTube As">
 
 This screen isn’t nearly as effective as the previous due to the mixed call to actions. The heading of the modal implies that the user is naming their account, which they already did upon signing up for the master Google account, while the submit button says that they’re creating a channel. To me this modal meant that the user needed to enter their name (for commenting) and that they’d be creating the channel on the next screen. The submit button seems to be a “continue to the next step” type of button.
 
@@ -159,7 +159,7 @@ __D:__ The name of the modal, “Use YouTube as…”, does not match the submit
 
 __3.3 Creating a Business Channel__
 
-<img src="/images/youtube-ux-audit/3-3-creating-a-business-channel.png" alt="3.3 Creating a Business Channel">
+<img src="/build/images/youtube-ux-audit/3-3-creating-a-business-channel.png" alt="3.3 Creating a Business Channel">
 
 This screen lets the user accomplish the task of creating the business channel. While this page makes it more obvious that a channel is being created, it’s not without its shortcomings. The first of note that this is a _new page_ while the previous was a modal. This means that the user has to learn an entirely separate interface for this process when YouTube could have combined these fields into the same modal.
 
@@ -176,19 +176,19 @@ __E:__ This section is telling me available actions I can take once the channel�
 __3.4 Now Entering Google+__
 
 {% comment %}Note to self: I reuse the 2.1 image here, but change its alt tag, to reduce requests. I do this a couple more times.{% endcomment %}
-<img src="/images/youtube-ux-audit/2-1-now-entering-google-plus.png" alt="3.4 Now Entering Google+">
+<img src="/build/images/youtube-ux-audit/2-1-now-entering-google-plus.png" alt="3.4 Now Entering Google+">
 
 I recommend getting rid of this dialog. In its place, the functionality should be added to the initial state of a newly created channel. The initial state already prompts the user to upload a video. Add a call to action to upload an icon, and an additional one to upload a banner image to the initial state. Display the text of this modal to these prompts. By adding to the initial state the user will be more easily able to brand their channel.
 
 __3.5 Google+__
 
-<img src="/images/youtube-ux-audit/2-2-this-is-really-happening.jpg" alt="3.5 Google+">
+<img src="/build/images/youtube-ux-audit/2-2-this-is-really-happening.jpg" alt="3.5 Google+">
 
 Make the creation of a Google+ page optional when creating an account. I know that’s easier said than done.
 
 __3.6 Sharing the Icon__
 
-<img src="/images/youtube-ux-audit/3-6-sharing-the-icon.png" alt="3.6 Sharing the Icon">
+<img src="/build/images/youtube-ux-audit/3-6-sharing-the-icon.png" alt="3.6 Sharing the Icon">
 
 Displaying this modal after a user uploads an icon for the first time is confusing. They’re not used to this behavior yet, so they may get confused as to whether the icon was actually saved. Displaying some sort of confirmation that the icon was indeed saved, and that sharing is optional, will help reinforce that the action completed successfully.
 
@@ -198,13 +198,13 @@ __B:__ The modal popped up right after the user selected the icon. Did the icon 
 
 __3.7 An Album of Logos?__
 
-<img src="/images/youtube-ux-audit/2-4-an-album-of-my-logos.png" alt="3.7 An Album of Logos?">
+<img src="/build/images/youtube-ux-audit/2-4-an-album-of-my-logos.png" alt="3.7 An Album of Logos?">
 
 Business pages shouldn’t have a gallery of profile pictures. They’re not changing their logo too often. Also easier said than done. While they will have galleries in the future, a gallery specifically of profile pictures doesn’t fit in with a business use case.
 
 __3.8 Editing Channel Art__
 
-<img src="/images/youtube-ux-audit/3-8-editing-channel-art.png" alt="3.8 Editing Channel Art">
+<img src="/build/images/youtube-ux-audit/3-8-editing-channel-art.png" alt="3.8 Editing Channel Art">
 
 The user is presented with a new interface for uploading a banner image. The icon interface and experience should reflect this one.
 
@@ -214,9 +214,9 @@ __B:__ I’ll give props to displaying the file requirements in this fashion. Th
 
 __3.9 The Finished Products__
 
-<img src="/images/youtube-ux-audit/1-3-wait.png" alt="3.9 The Finished Products. Initial state after creating a personal channel. Almost identical to the screenshot below.">
+<img src="/build/images/youtube-ux-audit/1-3-wait.png" alt="3.9 The Finished Products. Initial state after creating a personal channel. Almost identical to the screenshot below.">
 
-<img src="/images/youtube-ux-audit/1-5-first-task-complete.png" alt="3.9 The Finished Products. Initial state after creating a business channel. Almost identical to the screenshot above.">
+<img src="/build/images/youtube-ux-audit/1-5-first-task-complete.png" alt="3.9 The Finished Products. Initial state after creating a business channel. Almost identical to the screenshot above.">
 
 The first image is the result of creating a personal channel. The second image is the result of creating a business channel. Note that they’re almost identical. Why are they identical if there’s different paths to creating the two types of channels? Why can’t there be one single entry point and experience of creating a channel and then differentiating them later based on the type of user?
 
@@ -226,7 +226,7 @@ I’ve levied a lot of criticism towards YouTube and want to put my money where 
 
 __4.1 A Wireframe__
 
-<img src="/images/youtube-ux-audit/4-1-a-wireframe.png" alt="4.1 A Wireframe">
+<img src="/build/images/youtube-ux-audit/4-1-a-wireframe.png" alt="4.1 A Wireframe">
 
 This is what I envision the dialog formally known as “Use YouTube as...” looking like. The biggest change in functionality is that the user can create a personal or business channel in the same modal--instead of using two separate screens. The user is able to select whether they are creating a personal or business channel and the fields they fill out change based on this decision. The rest are text changes, explicitly describing what the options entail and providing context as to what the user is getting into. Just because they’re text changes doesn’t mean that they aren’t important to the overall experience.
 

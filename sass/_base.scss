@@ -3,6 +3,8 @@ body {
 	@include remcalc(18);
 	line-height:1.8;
 	font-weight:500;
+
+  overflow-x: hidden;
 }
 header {
 	padding: 30px 0;
@@ -16,6 +18,27 @@ header {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	@include remcalc(20);
+}
+
+.component-post {
+  img {
+    width: 100%;
+    max-width: 100%;
+
+    @media(min-width: $screen-sm-min) {
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+      width: auto;
+      max-width: (720px - $grid-gutter-width);
+    }
+    @media(min-width: $screen-md-min) {
+      max-width: (940px - $grid-gutter-width);
+    }
+    @media(min-width: $screen-lg-min) {
+      max-width: (1140px - $grid-gutter-width);
+    }
+  }
 }
 
 .component-post-summary {
